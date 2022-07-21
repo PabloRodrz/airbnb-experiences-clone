@@ -1,13 +1,99 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@300;600&display=swap');
+
+html {
+  overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: #918E9B;
+}
+
+
+.navbar-container {
+  background: #FFFFFF;
+  height: 70px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.airbnb-logo {
+  width: 82px;
+  height: 25px;
+  margin-top: 22px;
+  margin-left: 30px;
+}
+
+.heroimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 354px;
+  margin-top: 50px;
+
+}
+
+.herotext-container {
+  position: relative;
+  left: 12%;
+}
+
+.herotext-container>h1 {
+  justify-content: left;
+}
+
+.herotext-container>p {
+  justify-content: left;
+  width: 450px;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  height: 14px;
+}
+
+.card--image {
+  width: 80%;
+  border-radius: 9px;
+  margin-bottom: 9px
+}
+
+.card-container {
+  position: relative;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+}
+
+.cards-list {
+  display: flex;
+  margin-left: 10%;
+}
+
+.card--badge {
+  position: absolute;
+  top: 26px;
+  left: 26px;
+  background-color: white;
+  padding: 3px 5px;
+  border-radius: 4px;
+  font-weight: bold;
 }
